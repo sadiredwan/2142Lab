@@ -38,8 +38,8 @@ public class Home  extends AppCompatActivity implements View.OnClickListener
         if(v.getId () == R.id.CategoriesHomeId)
         {
 
-            //Intent intent = new Intent ( Home.this,CategoriesActivity.class );
-            //startActivity ( intent );
+            Intent intent = new Intent ( Home.this,CategoriesActivity.class );
+            startActivity ( intent );
 
         }
 
