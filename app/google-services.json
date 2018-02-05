@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "304012807178",
+    "firebase_url": "https://projectjonobakru.firebaseio.com",
+    "project_id": "projectjonobakru",
+    "storage_bucket": "projectjonobakru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304012807178:android:f7f044f47dbb4855",
+        "android_client_info": {
+          "package_name": "com.nano.projectjonobak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304012807178-c7gjv4pevcl8vogptf6r8p48a3g35hj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nano.projectjonobak",
+            "certificate_hash": "6f78be2816e9a161bd1f47ab6602e8e59c41b832"
+          }
+        },
+        {
+          "client_id": "304012807178-q5ble5fhq7hjrbspj7k8lir26gl6pmqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg_HPfFD548Sj0PD4yn_Lqul3OebFY_xY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304012807178-q5ble5fhq7hjrbspj7k8lir26gl6pmqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
