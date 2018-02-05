@@ -53,11 +53,5 @@ public class Home  extends AppCompatActivity implements View.OnClickListener
 
 
         }
-
-
-
     }
-
-
-
 }

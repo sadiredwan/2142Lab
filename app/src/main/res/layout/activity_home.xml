@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#fafafa"
-    tools:context="com.nano.projectjonobak.MainActivity">
+    tools:context="com.nano.projectjonobak.Home">
 
     <Button
         android:id="@+id/CategoriesHomeId"
@@ -38,8 +38,5 @@
         android:textSize="20dp"
 
         />
-
-
-
 
 </LinearLayout>
