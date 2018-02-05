@@ -25,7 +25,39 @@ public class Home  extends AppCompatActivity implements View.OnClickListener
         helpButton = (Button ) findViewById ( R.id.HelpHomeId );
         accountSettingButton = ( Button ) findViewById ( R.id.AccountSettingHomeId);
 
+        categoriesButton.setOnClickListener ( this );
+        helpButton.setOnClickListener ( this );
+        accountSettingButton.setOnClickListener ( this );
+
+    }
+
+
+    @Override
+    public void onClick(View v) {
+
+        if(v.getId () == R.id.CategoriesHomeId)
+        {
+
+            Intent intent = new Intent ( Home.this,CategoriesActivity.class );
+            startActivity ( intent );
+
+        }
+
+        else if(v.getId () == R.id.CategoriesHomeId)
+        {
+
+
+        }
+        else if(v.getId () == R.id.CategoriesHomeId)
+        {
+
+
+        }
+
 
 
     }
+
+
+
 }
