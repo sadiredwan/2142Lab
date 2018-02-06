@@ -1,19 +1,15 @@
 package com.nano.projectjonobak.divisions;
 
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import com.nano.projectjonobak.R;
-/**
- * Created by User on 06-Feb-18.
- */
 
-public class ChittagongDistrict extends AppCompatActivity{
+import com.nano.projectjonobak.R;
+
+public class RangpurDistrict extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_chittagong_district);
+        setContentView ( R.layout.activity_rangpur_district);
     }
-
 }
