@@ -84,7 +84,7 @@
             android:textSize="20dp"
 
             />
-
+/*
         <Button
             android:id="@+id/CoxsBazarDistrictId"
             android:layout_width="match_parent"
@@ -151,9 +151,7 @@
 
             />
 
-
-
-
+        
     </LinearLayout>
 
 
