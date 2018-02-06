@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "304012807178-cn5hl9pf8mpko4o2kq4fucmvpojk72pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nano.projectjonobak",
+            "certificate_hash": "5462bf59a0d759d127073cfa3dd64ce25e7c13dc"
+          }
+        },
+        {
           "client_id": "304012807178-c7gjv4pevcl8vogptf6r8p48a3g35hj9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
