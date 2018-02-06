@@ -1,25 +1,18 @@
 package com.nano.projectjonobak;
 
-/**
- * Created by User on 05-Feb-18.
- */
-
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.os.Bundle;
 
-public class Home  extends AppCompatActivity implements View.OnClickListener
-{
+public class Home extends AppCompatActivity implements View.OnClickListener {
+
     private Button categoriesButton, helpButton, accountSettingButton;
-
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_main );
+        setContentView ( R.layout.activity_home );
 
         categoriesButton = (Button ) findViewById ( R.id.CategoriesHomeId );
         helpButton = (Button ) findViewById ( R.id.HelpHomeId );
@@ -30,7 +23,6 @@ public class Home  extends AppCompatActivity implements View.OnClickListener
         accountSettingButton.setOnClickListener ( this );
 
     }
-
 
     @Override
     public void onClick(View v) {
@@ -53,5 +45,6 @@ public class Home  extends AppCompatActivity implements View.OnClickListener
 
 
         }
+
     }
 }
