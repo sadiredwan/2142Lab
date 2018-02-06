@@ -22,7 +22,8 @@
         <activity android:name=".DivisionList" />
         <activity android:name=".divisions.RajshahiDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
-        <activity android:name=".RangpurDistrict"></activity>
+        <activity android:name=".divisions.RangpurDistrict" />
+        <activity android:name=".BarisalDistrict"></activity>
     </application>
 
 </manifest>
