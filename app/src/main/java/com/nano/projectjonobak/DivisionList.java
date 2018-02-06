@@ -6,11 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.nano.projectjonobak.divisions.ChittagongDistrict;
+import com.nano.projectjonobak.divisions.DhakaDistrict;
 import com.nano.projectjonobak.divisions.RajshahiDistrict;
-import com.nano.projectjonobak.divisions.RangpurDistrict;
-import com.nano.projectjonobak.BarisalDistrict;
-
+import com.nano.projectjonobak.divisions.SylhetDistrict;
 
 public class DivisionList extends AppCompatActivity implements View.OnClickListener{
 
@@ -51,25 +49,27 @@ public class DivisionList extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent ( DivisionList.this,RajshahiDistrict.class );
             startActivity ( intent );
         }
-        else if (v.getId () == R.id.ChittagongDivisionId) {
+//        else if (v.getId () == R.id.ChittagongDivisionId)
+//        {
+//
+//            Intent intent = new Intent ( DivisionList.this,ChittagongDistrict.class );
+//            startActivity ( intent );
+//        }
 
-            Intent intent = new Intent ( DivisionList.this,ChittagongDistrict.class );
+
+        else if (v.getId () == R.id.DhakaDivisionId)
+        {
+
+            Intent intent = new Intent ( DivisionList.this,DhakaDistrict.class );
             startActivity ( intent );
         }
 
+        else if (v.getId () == R.id.SylhetDivisionId)
+        {
 
-        else if (v.getId () == R.id.RangpurDivisionId) {
-
-            Intent intent = new Intent ( DivisionList.this,RangpurDistrict.class );
+            Intent intent = new Intent ( DivisionList.this,SylhetDistrict.class );
             startActivity ( intent );
         }
-
-        else if (v.getId () == R.id.BarisalDivisionId) {
-
-            Intent intent = new Intent ( DivisionList.this,BarisalDistrict.class );
-            startActivity ( intent );
-        }
-
 
 
     }

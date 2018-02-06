@@ -17,13 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".CategoriesActivity" />
         <activity android:name=".DivisionList" />
         <activity android:name=".divisions.RajshahiDistrict" />
-        <activity android:name=".divisions.ChittagongDistrict" />
-        <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".BarisalDistrict"></activity>
+        <activity android:name=".divisions.SylhetDistrict" />
+        <activity android:name=".divisions.DhakaDistrict" />
+        <activity android:name=".divisions.districts.Bogra"></activity>
     </application>
 
 </manifest>
