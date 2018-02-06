@@ -19,7 +19,7 @@
         <activity android:name=".Home" />
         <activity android:name=".CategoriesActivity" />
         <activity android:name=".DivisionList" />
-        <activity android:name=".RajshahiDistrict"></activity>
+        <activity android:name=".divisions.RajshahiDistrict"></activity>
     </application>
 
 </manifest>
