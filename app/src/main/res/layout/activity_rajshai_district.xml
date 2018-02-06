@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nano.projectjonobak.DivisionList">
+    tools:context="com.nano.projectjonobak.RajshaiDistrict">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,27 +12,90 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="80dp">
 
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:text="Divisions"
-                android:textColor="#0e0e0e"
+                android:layout_weight="1"
+                android:text="Rajshai Division"
                 android:textSize="25dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="15dp"
+                android:textColor="#0b0b0b"
                 />
 
+
         </LinearLayout>
-
-
 
         <Button
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:id="@+id/RajshahiDivisionId"
+            android:id="@+id/BograDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Bogra"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/ChapaiDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Chapai Nawabgang"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/JoypurhatDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Joypurhat"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/NaogaonDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Naogaon"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/NatorDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text = "Natore"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/PabnaDistrictId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Pabna"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/RajshahiDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:text="Rajshahi"
@@ -42,73 +105,13 @@
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/DhakaDivisionId"
+            android:id="@+id/SirajgangDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Dhaka"
-            android:textSize="20dp"
-
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/ChittagongDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Chittagong"
-            android:textSize="20dp"
-
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/RangpurDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Rangpur"
-            android:textSize="20dp"
-
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/KhulnaDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text = "Khulna"
-            android:textSize="20dp"
-
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/BarisalDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Barisal"
-            android:textSize="20dp"
-
-            />
-
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/SylhetDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Sylhet"
-            android:textSize="20dp"
-
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/MymensinghDivisionId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Mymensingh"
+            android:text="Sirajgang"
             android:textSize="20dp"
             />
+
 
     </LinearLayout>
 
