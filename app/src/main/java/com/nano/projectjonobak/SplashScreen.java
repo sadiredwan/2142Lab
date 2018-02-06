@@ -11,6 +11,8 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_splash_screen );
 
+        // duration of splash screen.
+
         Thread myThread = new Thread (  )
         {
 
