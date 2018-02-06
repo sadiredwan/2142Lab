@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.nano.projectjonobak.divisions.RajshahiDistrict;
+
 public class DivisionList extends AppCompatActivity implements View.OnClickListener{
 
     private Button rajshahiDivision, dhakaDivision, rangpurDivision, sylhetDivision, mymensinghDivison, khulnaDivision, barisalDivision, chittagongDivision;
@@ -45,6 +47,12 @@ public class DivisionList extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent ( DivisionList.this,RajshahiDistrict.class );
             startActivity ( intent );
         }
+//        else if (v.getId () == R.id.ChittagongDivisionId)
+//        {
+//
+//            Intent intent = new Intent ( DivisionList.this,ChittagongDistrict.class );
+//            startActivity ( intent );
+//        }
 
 
     }
