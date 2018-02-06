@@ -1,9 +1,11 @@
-package com.nano.projectjonobak;
+package com.nano.projectjonobak.divisions.districts;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BograRajshahi extends AppCompatActivity {
+import com.nano.projectjonobak.R;
+
+public class Bogra extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

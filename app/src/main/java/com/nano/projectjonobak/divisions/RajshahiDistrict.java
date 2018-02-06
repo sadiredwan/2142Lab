@@ -6,8 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.nano.projectjonobak.BograRajshahi;
-import com.nano.projectjonobak.DivisionList;
+import com.nano.projectjonobak.divisions.districts.Bogra;
 import com.nano.projectjonobak.R;
 
 public class RajshahiDistrict extends AppCompatActivity implements View.OnClickListener {
@@ -45,7 +44,7 @@ public class RajshahiDistrict extends AppCompatActivity implements View.OnClickL
         if (v.getId () == R.id.BograDistrictId)
         {
 
-            Intent intent = new Intent ( RajshahiDistrict.this,BograRajshahi.class );
+            Intent intent = new Intent ( RajshahiDistrict.this,Bogra.class );
             startActivity ( intent );
         }
 
