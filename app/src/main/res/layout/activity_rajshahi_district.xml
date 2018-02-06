@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="Rajshai Division"
+                android:text="Rajshahi Division"
                 android:textSize="25dp"
                 android:textColor="#0b0b0b"
                 />
