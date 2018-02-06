@@ -42,7 +42,7 @@ public class DivisionList extends AppCompatActivity implements View.OnClickListe
         if (v.getId () == R.id.RajshahiDivisionId)
         {
 
-            Intent intent = new Intent ( DivisionList.this,RajshaiDistrict.class );
+            Intent intent = new Intent ( DivisionList.this,RajshahiDistrict.class );
             startActivity ( intent );
         }
 
