@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nano.projectjonobak.divisions.ChittagongDistrict">
+    tools:context="com.nano.projectjonobak.RangpurDistrict">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="Chittagong Division"
+                android:text="Rangpur Division"
                 android:textSize="25dp"
                 android:textColor="#0b0b0b"
                 />
@@ -34,60 +34,60 @@
         <Button
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:id="@+id/BrahmanbariaDistrictId"
+            android:id="@+id/ThakurgaonDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Brahmanbaria"
+            android:text="Thakurgaon"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/ComillaDistrictId"
+            android:id="@+id/RangpurDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Comilla"
+            android:text="Rangpur"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/ChandpurDistrictId"
+            android:id="@+id/PanchagarhDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Chandpur"
+            android:text="Panchagarh"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/LakshmipurDistrictId"
+            android:id="@+id/NilphamariDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Lakshmipur"
+            android:text="Nilphamari"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/NoakhaliDistrictId"
+            android:id="@+id/LalmonirhatDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text = "Noakhali"
+            android:text = "Lalmonirhat"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/FeniDistrictId"
+            android:id="@+id/KurigramDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Feni"
+            android:text="Kurigram"
             android:textSize="20dp"
 
             />
@@ -95,49 +95,20 @@
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/KhagrachhariDistrictId"
+            android:id="@+id/GaibandhaDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Khagrachhari"
+            android:text="Gaibandha"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/RangamatiDistrictId"
+            android:id="@+id/DinajpurDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Rangamati"
-            android:textSize="20dp"
-            />
-
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/BandarbanDistrictId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Bandarban"
-            android:textSize="20dp"
-            />
-
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/ChittagongDistrictId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Chittagong"
-            android:textSize="20dp"
-            />
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/ChittagongDistrictId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Chittagong"
+            android:text="Dinajpur"
             android:textSize="20dp"
             />
 
