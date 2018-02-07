@@ -32,7 +32,8 @@
         <activity android:name=".MinistriesList" />
         <activity android:name=".CivilService" />
         <activity android:name=".divisions.districts.Chapainawabganj" />
-        <activity android:name=".Joypurhat"></activity>
+        <activity android:name=".divisions.districts.Joypurhat" />
+        <activity android:name=".Naogon"></activity>
     </application>
 
 </manifest>
