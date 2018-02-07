@@ -91,5 +91,13 @@ public class DivisionList extends AppCompatActivity implements View.OnClickListe
         }
 
 
+        else if (v.getId () == R.id.KhulnaDivisionId)
+        {
+
+            Intent intent = new Intent ( DivisionList.this, KhulnaDistrict.class );
+            startActivity ( intent );
+        }
+
+
     }
 }
