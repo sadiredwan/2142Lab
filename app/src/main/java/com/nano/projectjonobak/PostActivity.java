@@ -13,6 +13,9 @@ import android.widget.ImageButton;
 import java.util.Random;
 
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
@@ -28,6 +31,7 @@ public class PostActivity extends AppCompatActivity {
 
     private StorageReference storage;
     private ProgressDialog progress;
+    private DatabaseReference database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +39,9 @@ public class PostActivity extends AppCompatActivity {
         setContentView(R.layout.activity_post);
 
         storage = FirebaseStorage.getInstance().getReference();
-        progress = new ProgressDialog(this);
+        database = FirebaseDatabase.getInstance().getReference().child("projectjonobak").child("posts");
 
+        progress = new ProgressDialog(this);
         selectImage = (ImageButton) findViewById(R.id.imageSelect);
         postTitle = (EditText) findViewById(R.id.titleField);
         postDescription = (EditText) findViewById(R.id.descField);
@@ -83,8 +88,8 @@ public class PostActivity extends AppCompatActivity {
     private void startPosting() {
         progress.setMessage("Posting ...");
         progress.show();
-        String titleVal = postTitle.getText().toString().trim();
-        String descriptionVal = postDescription.getText().toString().trim();
+        final String titleVal = postTitle.getText().toString().trim();
+        final String descriptionVal = postDescription.getText().toString().trim();
 
         if(!TextUtils.isEmpty(titleVal) && !TextUtils.isEmpty(descriptionVal) && imageUri != null){
             //StorageReference filepath = storage.child("Posted_Images").child(imageUri.getLastPathSegment());
@@ -93,6 +98,10 @@ public class PostActivity extends AppCompatActivity {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                    DatabaseReference newPost = database.push();
+                    newPost.child("title").setValue(titleVal);
+                    newPost.child("description").setValue(descriptionVal);
+                    newPost.child("image").setValue(downloadUrl.toString());
                     progress.dismiss();
                 }
             });
