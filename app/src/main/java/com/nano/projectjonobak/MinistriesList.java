@@ -1,15 +1,13 @@
-package com.nano.projectjonobak.divisions;
+package com.nano.projectjonobak;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.nano.projectjonobak.R;
-
-public class KhulnaDistrict extends AppCompatActivity {
+public class MinistriesList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_khulna_district );
+        setContentView ( R.layout.activity_ministries_list );
     }
 }

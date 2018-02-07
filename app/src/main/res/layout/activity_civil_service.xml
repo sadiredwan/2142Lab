@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nano.projectjonobak.divisions.RajshahiDistrict">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="Civil Service"
+                android:textSize="25dp"
+                android:textColor="#0b0b0b"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/PublicWorksAssistantEngineerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Public Works: Assistant Engineer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/PublicHealthEngineeringAssistantEngineerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Public Health Engineering: Assistant Engineer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/ForestAssistantConservatorofForestCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forest Assistant Conservator of Forest"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/HealthAssistantSurgeonMedicalOfficerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health: Assistant Surgeon / Medical Officer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/RailwayEngineeringAssistantEngineerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Railway Engineering: Assistant Engineer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/LivestockVeterinarySurgeonUpazilaLivestockOfficerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Livestock: Veterinary Surgeon / Upazila Livestock Officer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/FisheriesUpazilaFisheriesOfficerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fisheries: Upazila Fisheries Officer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/StatisticsStatisticalOfficerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statistics: Statistical Officer"
+            android:textSize="15dp"
+
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/GeneralEducationLecturerCategoriesId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="General Education: Lecturer"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

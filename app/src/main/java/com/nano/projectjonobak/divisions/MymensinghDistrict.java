@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.nano.projectjonobak.R;
 
-public class KhulnaDistrict extends AppCompatActivity {
+public class MymensinghDistrict extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_khulna_district );
+        setContentView ( R.layout.activity_mymensingh_district );
     }
 }

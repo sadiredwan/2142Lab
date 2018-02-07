@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nano.projectjonobak.divisions.RajshahiDistrict">
+    tools:context="com.nano.projectjonobak.divisions.DhakaDistrict">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="Khulna Division"
+                android:text="List of Ministries"
                 android:textSize="25dp"
                 android:textColor="#0b0b0b"
                 />
@@ -34,101 +34,164 @@
         <Button
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:id="@+id/BagerhatDistrictId"
+            android:id="@+id/AgricultureMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Bagerhat"
+            android:text="Agriculture"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/ChuadangaDistrictId"
+            android:id="@+id/CommerceMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Chuadanga"
+            android:text="Commerce"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/JessoreDistrictId"
+            android:id="@+id/CivilAviationandourismMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Jessore"
+            android:text="Civil Aviation and Tourism"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/JhenaidahDistrictId"
+            android:id="@+id/EducationMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Jhenaidah"
+            android:text="Education"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/KhulnaDistrictId"
+            android:id="@+id/EnvironmentandForestMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text = "Khulna"
+            android:text="Environment and Forest"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/KushtiaDistrictId"
+            android:id="@+id/FinanceMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Kushtia"
-            android:textSize="20dp"
-
-            />
-
-        <Button
-            android:layout_weight="1"
-            android:layout_marginTop="5dp"
-            android:id="@+id/MaguraDistrictId"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Magura"
+            android:text="Finance"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/MeherpurDistrictId"
+            android:id="@+id/FisheriesandLivestockMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Meherpur"
+            android:text="Fisheries and Livestock"
             android:textSize="20dp"
+
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/NarailDistrictId"
+            android:id="@+id/HealthandFamilyWelfareMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Narail"
+            android:text="Health and Family Welfare"
             android:textSize="20dp"
+
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/SatkhiraDistrictId"
+            android:id="@+id/IndustriesMinistryId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Satkhira"
+            android:text="Industries"
             android:textSize="20dp"
+
             />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/LiberationWarAffairsMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Liberation War Affairs"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/PublicAdministrationMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Public Administration"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/PowerEnergyandMineralResourcesMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Power, Energy and Mineral Resources"
+            android:textSize="16dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/RailwaysMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Railways"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/TextilesandJuteMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Textiles and Jute"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/WomenandChildrenAffairsMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Women and Children Affairs"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/YouthandSportsMinistryId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Youth and Sports"
+            android:textSize="20dp"
+
+            />
+
 
 
     </LinearLayout>

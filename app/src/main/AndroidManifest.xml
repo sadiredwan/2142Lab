@@ -27,7 +27,10 @@
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".divisions.KhulnaDistrict"></activity>
+        <activity android:name=".divisions.KhulnaDistrict" />
+        <activity android:name=".divisions.MymensinghDistrict" />
+        <activity android:name=".MinistriesList" />
+        <activity android:name=".CivilService"></activity>
     </application>
 
 </manifest>
