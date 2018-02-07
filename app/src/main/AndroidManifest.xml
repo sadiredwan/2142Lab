@@ -30,7 +30,9 @@
         <activity android:name=".divisions.KhulnaDistrict" />
         <activity android:name=".divisions.MymensinghDistrict" />
         <activity android:name=".MinistriesList" />
-        <activity android:name=".CivilService"></activity>
+        <activity android:name=".CivilService" />
+        <activity android:name=".divisions.districts.Chapainawabganj" />
+        <activity android:name=".Joypurhat"></activity>
     </application>
 
 </manifest>
