@@ -36,7 +36,8 @@ public class CategoriesActivity extends AppCompatActivity implements View.OnClic
 
         else if(v.getId () == R.id.ministerCategoriesButtonId)
         {
-
+            Intent intent = new Intent ( CategoriesActivity.this,MinistriesList.class );
+            startActivity ( intent );
 
         }
         else if(v.getId () == R.id.secretariatsCategoriesButtonId)
