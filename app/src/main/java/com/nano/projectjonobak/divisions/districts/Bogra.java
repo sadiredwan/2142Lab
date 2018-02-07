@@ -10,6 +10,6 @@ public class Bogra extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_bogra_rajshahi );
+        setContentView ( R.layout.activity_bogra );
     }
 }
