@@ -10,6 +10,7 @@ import android.widget.Button;
 //import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.DhakaDistrict;
+import com.nano.projectjonobak.divisions.KhulnaDistrict;
 import com.nano.projectjonobak.divisions.RajshahiDistrict;
 //import com.nano.projectjonobak.divisions.RangpurDistrict;
 import com.nano.projectjonobak.divisions.RangpurDistrict;
