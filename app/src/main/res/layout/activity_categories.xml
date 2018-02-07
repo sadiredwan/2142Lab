@@ -50,10 +50,10 @@
             />
 
         <Button
-            android:id="@+id/secretariatsCategoriesButtonId"
+            android:id="@+id/CivilServiceCategoriesButtonId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Secretariats"
+            android:text="Civil Service"
             android:textSize="20dp"
             android:layout_marginTop="5dp"
             />
