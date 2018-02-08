@@ -48,12 +48,12 @@ public class RajshahiDistrict extends AppCompatActivity implements View.OnClickL
             startActivity ( intent );
         }
 
-//        else if (v.getId () == R.id.ChapaiDistrictId)
-//        {
-//
-//            Intent intent = new Intent ( RajshahiDistrict.this,RajshahiDistrict.class );
-//            startActivity ( intent );
-//        }
+        else if (v.getId () == R.id.PabnaDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,RajshahiDistrict.class );
+            startActivity ( intent );
+        }
 
 
     }
