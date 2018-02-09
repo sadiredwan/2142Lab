@@ -26,7 +26,6 @@
         <activity android:name=".divisions.BarisalDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".divisions.RangpurDistrict" />
         <activity android:name=".divisions.KhulnaDistrict" />
         <activity android:name=".divisions.MymensinghDistrict" />
         <activity android:name=".MinistriesList" />
