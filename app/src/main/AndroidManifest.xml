@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nano.projectjonobak">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,27 +29,7 @@
         <activity android:name=".divisions.BarisalDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".divisions.KhulnaDistrict" />
-        <activity android:name=".divisions.MymensinghDistrict" />
-        <activity android:name=".MinistriesList" />
-        <activity android:name=".CivilService" />
-        <activity android:name=".ministries.Agriculture" />
-        <activity android:name=".ministries.Commerce" />
-        <activity android:name=".ministries.CivilAviation" />
-        <activity android:name=".ministries.Education" />
-        <activity android:name=".ministries.Enviroment" />
-        <activity android:name=".ministries.Finance" />
-        <activity android:name=".ministries.Fisheries" />
-        <activity android:name=".ministries.Health" />
-        <activity android:name=".ministries.Industries" />
-        <activity android:name=".ministries.Liberation" />
-        <activity android:name=".ministries.PublicAdministration" />
-        <activity android:name=".ministries.Power" />
-        <activity android:name=".ministries.RailWays" />
-        <activity android:name=".ministries.Textile" />
-        <activity android:name=".ministries.WomenandChildren" />
-        <activity android:name=".ministries.YouthandSports"></activity>
+        <activity android:name=".PostActivity"></activity>
     </application>
 
 </manifest>

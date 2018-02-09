@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-//import com.nano.projectjonobak.divisions.BarisalDistrict;
-//import com.nano.projectjonobak.divisions.ChittagongDistrict;
+import com.nano.projectjonobak.divisions.BarisalDistrict;
+import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.DhakaDistrict;
 import com.nano.projectjonobak.divisions.MymensinghDistrict;
 import com.nano.projectjonobak.divisions.RajshahiDistrict;
-//import com.nano.projectjonobak.divisions.RangpurDistrict;
+import com.nano.projectjonobak.divisions.RangpurDistrict;
 import com.nano.projectjonobak.divisions.RangpurDistrict;
 import com.nano.projectjonobak.divisions.SylhetDistrict;
 import com.nano.projectjonobak.divisions.BarisalDistrict;
