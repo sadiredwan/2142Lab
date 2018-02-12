@@ -29,7 +29,11 @@
         <activity android:name=".divisions.BarisalDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".PostActivity"></activity>
+        <activity android:name=".divisions.MymensinghDistrict" />
+        <activity android:name=".divisions.KhulnaDistrict" />
+        <activity android:name=".PostActivity">
+
+        </activity>
     </application>
 
 </manifest>
