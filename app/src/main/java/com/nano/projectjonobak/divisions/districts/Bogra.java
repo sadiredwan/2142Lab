@@ -30,7 +30,7 @@ public class Bogra extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.activity_bogra_rajshahi );
+        setContentView ( R.layout.activity_bogra );
         database = FirebaseDatabase.getInstance().getReference().child("projectjonobak").child("posts").child("bogra");
         postList = (RecyclerView) findViewById(R.id.post_list);
         postList.setHasFixedSize(true);
