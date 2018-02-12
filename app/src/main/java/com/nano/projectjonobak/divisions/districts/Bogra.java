@@ -2,6 +2,7 @@ package com.nano.projectjonobak.divisions.districts;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,8 +14,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.nano.projectjonobak.AccountSettings;
 import com.nano.projectjonobak.Post;
 import com.nano.projectjonobak.PostActivity;
 import com.nano.projectjonobak.R;
@@ -26,11 +29,30 @@ public class Bogra extends AppCompatActivity {
 
     private RecyclerView postList;
     private DatabaseReference database;
+//    private FirebaseAuth auth;
+//    private FirebaseAuth.AuthStateListener authStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate ( savedInstanceState );
+
         setContentView ( R.layout.activity_bogra );
+
+//        authStateListener = new FirebaseAuth.AuthStateListener() {
+//            @Override
+//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+//
+//                if(firebaseAuth.getCurrentUser() == null){
+//                    Intent loginIntent = new Intent(Bogra.this, AccountSettings.class);
+//                    loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                    //loginIntent.putExtra("PARENT_ACTIVITY", "Bogra");
+//                    startActivity(loginIntent);
+//                }
+//            }
+//        };
+//
+//        auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance().getReference().child("projectjonobak").child("posts").child("bogra");
         postList = (RecyclerView) findViewById(R.id.post_list);
         postList.setHasFixedSize(true);
@@ -40,6 +62,9 @@ public class Bogra extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
+//        auth.addAuthStateListener(authStateListener);
+
         FirebaseRecyclerAdapter<Post, PostViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Post, PostViewHolder>(
                 Post.class, R.layout.post_row, PostViewHolder.class, database
         ) {
@@ -50,6 +75,7 @@ public class Bogra extends AppCompatActivity {
                 viewHolder.setImage(getApplicationContext(), model.getImage());
             }
         };
+
         postList.setAdapter(firebaseRecyclerAdapter);
     }
 
@@ -90,6 +116,13 @@ public class Bogra extends AppCompatActivity {
             intent.putExtra("PARENT_ACTIVITY", "bogra");
             startActivity(intent);
         }
+//        else if(item.getItemId() == R.id.action_logout){
+//            logout();
+//        }
         return super.onOptionsItemSelected(item);
     }
+
+//    private void logout(){
+//        auth.signOut();
+//    }
 }

@@ -57,7 +57,8 @@
         <activity android:name=".ministries.Textile" />
         <activity android:name=".ministries.WomenandChildren" />
         <activity android:name=".ministries.YouthandSports" />
-        <activity android:name=".divisions.districts.Naogon"></activity>
+        <activity android:name=".divisions.districts.Naogon" />
+        <activity android:name=".AccountSettings"></activity>
     </application>
 
 </manifest>
