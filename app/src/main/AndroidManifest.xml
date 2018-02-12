@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nano.projectjonobak">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -49,9 +50,11 @@
         <activity android:name=".ministries.Textile" />
         <activity android:name=".ministries.WomenandChildren" />
         <activity android:name=".ministries.YouthandSports" />
-        <activity android:name=".PostActivity">
-
-        </activity>
+        <activity android:name=".PostActivity" />
+        <activity android:name=".divisions.districts.HabiganjDistrict" />
+        <activity android:name=".divisions.districts.MoulviBazarDistrict" />
+        <activity android:name=".divisions.districts.SunamganjDistrict" />
+        <activity android:name=".divisions.districts.Sylhet"></activity>
     </application>
 
 </manifest>
