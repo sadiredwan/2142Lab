@@ -57,7 +57,13 @@
         <activity android:name=".ministries.Textile" />
         <activity android:name=".ministries.WomenandChildren" />
         <activity android:name=".ministries.YouthandSports" />
-        <activity android:name=".divisions.districts.Naogon"></activity>
+        <activity android:name=".divisions.districts.MoulviBazarDistrict" />
+        <activity android:name=".divisions.districts.SunamganjDistrict" />
+        <activity android:name=".divisions.districts.Sylhet" />
+        <activity android:name=".divisions.districts.HabiganjDistrict">
+
+
+        </activity>
     </application>
 
 </manifest>

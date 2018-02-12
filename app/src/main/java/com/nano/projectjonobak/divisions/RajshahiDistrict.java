@@ -12,7 +12,7 @@ import com.nano.projectjonobak.divisions.districts.Chapainawabganj;
 //import com.nano.projectjonobak.divisions.districts.Joypurhat;
 //import com.nano.projectjonobak.divisions.districts.Naogon;
 import com.nano.projectjonobak.divisions.districts.Joypurhat;
-import com.nano.projectjonobak.divisions.districts.Naogon;
+//import com.nano.projectjonobak.divisions.districts.Naogon;
 import com.nano.projectjonobak.divisions.districts.Natore;
 import com.nano.projectjonobak.divisions.districts.Pabna;
 import com.nano.projectjonobak.divisions.districts.Rajshahi;
@@ -72,12 +72,12 @@ public class RajshahiDistrict extends AppCompatActivity implements View.OnClickL
         }
 
 
-        else if (v.getId () == R.id.NaogaonDistrictId)
-        {
-
-            Intent intent = new Intent ( RajshahiDistrict.this,Naogon.class );
-            startActivity ( intent );
-        }
+//        else if (v.getId () == R.id.NaogaonDistrictId)
+//        {
+//
+//            Intent intent = new Intent ( RajshahiDistrict.this,Naogon.class );
+//            startActivity ( intent );
+//        }
 
         else if (v.getId () == R.id.NatorDistrictId)
         {
