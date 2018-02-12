@@ -33,7 +33,8 @@
         <activity android:name=".PostActivity" />
         <activity android:name=".divisions.districts.Natore" />
         <activity android:name=".divisions.districts.Pabna" />
-        <activity android:name=".divisions.districts.Rajshahi"></activity>
+        <activity android:name=".divisions.districts.Rajshahi" />
+        <activity android:name=".Sirajgang"></activity>
     </application>
 
 </manifest>
