@@ -33,13 +33,20 @@ public class PostActivity extends AppCompatActivity {
     private ProgressDialog progress;
     private DatabaseReference database;
 
+
+    public String directoryName(){
+        Bundle bundle = getIntent().getExtras();
+        String name = bundle.getString("PARENT_ACTIVITY");
+        return name;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
         storage = FirebaseStorage.getInstance().getReference();
-        database = FirebaseDatabase.getInstance().getReference().child("projectjonobak").child("posts");
+        database = FirebaseDatabase.getInstance().getReference().child("projectjonobak").child("posts").child(directoryName());
 
         progress = new ProgressDialog(this);
         selectImage = (ImageButton) findViewById(R.id.imageSelect);
@@ -87,11 +94,11 @@ public class PostActivity extends AppCompatActivity {
 
     private void startPosting() {
         progress.setMessage("Posting ...");
-        progress.show();
         final String titleVal = postTitle.getText().toString().trim();
         final String descriptionVal = postDescription.getText().toString().trim();
 
         if(!TextUtils.isEmpty(titleVal) && !TextUtils.isEmpty(descriptionVal) && imageUri != null){
+            progress.show();
             //StorageReference filepath = storage.child("Posted_Images").child(imageUri.getLastPathSegment());
             StorageReference filepath = storage.child("Posted_Images").child(random());
             filepath.putFile(imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
