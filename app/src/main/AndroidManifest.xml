@@ -34,7 +34,10 @@
         <activity android:name=".divisions.districts.Natore" />
         <activity android:name=".divisions.districts.Pabna" />
         <activity android:name=".divisions.districts.Rajshahi" />
-        <activity android:name=".Sirajgang"></activity>
+        <activity android:name=".divisions.districts.Sirajgang" />
+        <activity android:name=".divisions.districts.Chapainawabganj" />
+        <activity android:name=".divisions.districts.Joypurhat" />
+        <activity android:name=".divisions.districts.Naogon"></activity>
     </application>
 
 </manifest>
