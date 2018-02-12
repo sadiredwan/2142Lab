@@ -31,7 +31,9 @@
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
         <activity android:name=".PostActivity" />
-        <activity android:name=".divisions.districts.Natore"></activity>
+        <activity android:name=".divisions.districts.Natore" />
+        <activity android:name=".divisions.districts.Pabna" />
+        <activity android:name=".divisions.districts.Rajshahi"></activity>
     </application>
 
 </manifest>
