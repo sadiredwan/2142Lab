@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class CategoriesActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button divisionButton, ministerButton, secretariatsButton;
+    private Button divisionButton, ministerButton, civilserviceButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +17,11 @@ public class CategoriesActivity extends AppCompatActivity implements View.OnClic
 
         divisionButton = ( Button ) findViewById ( R.id.divisionCategoriesButtonId );
         ministerButton = ( Button ) findViewById ( R.id.ministerCategoriesButtonId );
-        secretariatsButton = ( Button ) findViewById ( R.id.secretariatsCategoriesButtonId);
+        civilserviceButton = ( Button ) findViewById ( R.id.CivilServiceCategoriesButtonId);
 
         divisionButton.setOnClickListener ( this );
         ministerButton.setOnClickListener ( this );
-        secretariatsButton .setOnClickListener ( this );
+        civilserviceButton .setOnClickListener ( this );
     }
 
     @Override
@@ -36,12 +36,14 @@ public class CategoriesActivity extends AppCompatActivity implements View.OnClic
 
         else if(v.getId () == R.id.ministerCategoriesButtonId)
         {
-
+            Intent intent = new Intent ( CategoriesActivity.this,MinistriesList.class );
+            startActivity ( intent );
 
         }
-        else if(v.getId () == R.id.secretariatsCategoriesButtonId)
+        else if(v.getId () == R.id.CivilServiceCategoriesButtonId)
         {
-
+            Intent intent = new Intent ( CategoriesActivity.this,CivilService.class );
+            startActivity ( intent );
 
         }
 

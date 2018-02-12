@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nano.projectjonobak">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".SplashScreen"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,8 +26,11 @@
         <activity android:name=".divisions.BarisalDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
-        <activity android:name=".PostActivity" />
-        <activity android:name=".divisions.districts.Pabna"></activity>
+        <activity android:name=".divisions.RangpurDistrict" />
+        <activity android:name=".divisions.KhulnaDistrict" />
+        <activity android:name=".divisions.MymensinghDistrict" />
+        <activity android:name=".MinistriesList" />
+        <activity android:name=".CivilService"></activity>
     </application>
 
 </manifest>

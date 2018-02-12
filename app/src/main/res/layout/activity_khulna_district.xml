@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nano.projectjonobak.divisions.DhakaDistrict">
+    tools:context="com.nano.projectjonobak.divisions.RajshahiDistrict">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
-                android:text="Dhaka Division"
+                android:text="Khulna Division"
                 android:textSize="25dp"
                 android:textColor="#0b0b0b"
                 />
@@ -34,60 +34,60 @@
         <Button
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:id="@+id/DhakaDistrictId"
+            android:id="@+id/BagerhatDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Dhaka"
+            android:text="Bagerhat"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/FaridpurDistrictId"
+            android:id="@+id/ChuadangaDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Faridpur"
+            android:text="Chuadanga"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/GopalganjDistrictId"
+            android:id="@+id/JessoreDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Gopalganj"
+            android:text="Jessore"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/GazipurDistrictId"
+            android:id="@+id/JhenaidahDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Gazipur"
+            android:text="Jhenaidah"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/KishoreganjDistrictId"
+            android:id="@+id/KhulnaDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text = "Kishoreganj"
+            android:text = "Khulna"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/ManikganjDistrictId"
+            android:id="@+id/KushtiaDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Manikganj"
+            android:text="Kushtia"
             android:textSize="20dp"
 
             />
@@ -95,42 +95,41 @@
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/MadaripurDistrictId"
+            android:id="@+id/MaguraDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Madaripur"
+            android:text="Magura"
             android:textSize="20dp"
 
             />
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/NarayanganjDistrictId"
+            android:id="@+id/MeherpurDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Narayanganj"
+            android:text="Meherpur"
             android:textSize="20dp"
             />
-
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/NarsingdiDistrictId"
+            android:id="@+id/NarailDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Narsingdi"
+            android:text="Narail"
             android:textSize="20dp"
             />
-
         <Button
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:id="@+id/TangailDistrictId"
+            android:id="@+id/SatkhiraDistrictId"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:text="Tangail"
+            android:text="Satkhira"
             android:textSize="20dp"
             />
+
 
     </LinearLayout>
 

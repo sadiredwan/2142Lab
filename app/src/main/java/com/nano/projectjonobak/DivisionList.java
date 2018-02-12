@@ -10,11 +10,13 @@ import com.nano.projectjonobak.divisions.BarisalDistrict;
 import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.ChittagongDistrict;
 import com.nano.projectjonobak.divisions.DhakaDistrict;
+import com.nano.projectjonobak.divisions.MymensinghDistrict;
 import com.nano.projectjonobak.divisions.RajshahiDistrict;
 import com.nano.projectjonobak.divisions.RangpurDistrict;
 import com.nano.projectjonobak.divisions.RangpurDistrict;
 import com.nano.projectjonobak.divisions.SylhetDistrict;
 import com.nano.projectjonobak.divisions.BarisalDistrict;
+import com.nano.projectjonobak.divisions.KhulnaDistrict;
 
 public class DivisionList extends AppCompatActivity implements View.OnClickListener{
 
@@ -87,6 +89,20 @@ public class DivisionList extends AppCompatActivity implements View.OnClickListe
         {
 
             Intent intent = new Intent ( DivisionList.this, RangpurDistrict.class );
+            startActivity ( intent );
+        }
+
+        else if (v.getId () == R.id.KhulnaDivisionId)
+        {
+
+            Intent intent = new Intent ( DivisionList.this, KhulnaDistrict.class );
+            startActivity ( intent );
+        }
+
+        else if (v.getId () == R.id.MymensinghDivisionId)
+        {
+
+            Intent intent = new Intent ( DivisionList.this, MymensinghDistrict.class );
             startActivity ( intent );
         }
 
