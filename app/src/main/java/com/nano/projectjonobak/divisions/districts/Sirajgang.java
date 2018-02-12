@@ -9,14 +9,13 @@ import android.view.MenuItem;
 import com.nano.projectjonobak.PostActivity;
 import com.nano.projectjonobak.R;
 
-public class Joypurhat extends AppCompatActivity {
+public class Sirajgang extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_joypurhat);
+        setContentView(R.layout.activity_sirajgang);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -27,7 +26,7 @@ public class Joypurhat extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.action_add) {
-            startActivity(new Intent(Joypurhat.this, PostActivity.class));
+            startActivity(new Intent(Sirajgang.this, PostActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }

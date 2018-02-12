@@ -30,6 +30,13 @@
         <activity android:name=".divisions.BarisalDistrict" />
         <activity android:name=".divisions.ChittagongDistrict" />
         <activity android:name=".divisions.RangpurDistrict" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".divisions.districts.Natore" />
+        <activity android:name=".divisions.districts.Pabna" />
+        <activity android:name=".divisions.districts.Rajshahi" />
+        <activity android:name=".divisions.districts.Sirajgang" />
+        <activity android:name=".divisions.districts.Chapainawabganj" />
+        <activity android:name=".divisions.districts.Joypurhat" />
         <activity android:name=".divisions.MymensinghDistrict" />
         <activity android:name=".MinistriesList" />
         <activity android:name=".CivilService" />
@@ -50,11 +57,7 @@
         <activity android:name=".ministries.Textile" />
         <activity android:name=".ministries.WomenandChildren" />
         <activity android:name=".ministries.YouthandSports" />
-        <activity android:name=".PostActivity" />
-        <activity android:name=".divisions.districts.HabiganjDistrict" />
-        <activity android:name=".divisions.districts.MoulviBazarDistrict" />
-        <activity android:name=".divisions.districts.SunamganjDistrict" />
-        <activity android:name=".divisions.districts.Sylhet"></activity>
+        <activity android:name=".divisions.districts.Naogon"></activity>
     </application>
 
 </manifest>

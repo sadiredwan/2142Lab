@@ -8,6 +8,15 @@ import android.widget.Button;
 
 import com.nano.projectjonobak.divisions.districts.Bogra;
 import com.nano.projectjonobak.R;
+import com.nano.projectjonobak.divisions.districts.Chapainawabganj;
+//import com.nano.projectjonobak.divisions.districts.Joypurhat;
+//import com.nano.projectjonobak.divisions.districts.Naogon;
+import com.nano.projectjonobak.divisions.districts.Joypurhat;
+import com.nano.projectjonobak.divisions.districts.Naogon;
+import com.nano.projectjonobak.divisions.districts.Natore;
+import com.nano.projectjonobak.divisions.districts.Pabna;
+import com.nano.projectjonobak.divisions.districts.Rajshahi;
+import com.nano.projectjonobak.divisions.districts.Sirajgang;
 
 public class RajshahiDistrict extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,7 +29,7 @@ public class RajshahiDistrict extends AppCompatActivity implements View.OnClickL
         BograButton = (Button) findViewById ( R.id.BograDistrictId );
         ChapaiButton = (Button) findViewById ( R.id.ChapaiDistrictId );
         JoypurhatButton = (Button) findViewById ( R.id.JoypurhatDistrictId );
-        NaogaonButton = (Button) findViewById ( R.id.BograDistrictId );
+        NaogaonButton = (Button) findViewById ( R.id.NaogaonDistrictId);
         NatoreButton = (Button) findViewById ( R.id.NatorDistrictId);
         PabnaButton = (Button) findViewById ( R.id.PabnaDistrictId );
         RajshahiButton = (Button) findViewById ( R.id.RajshahiDistrictId);
@@ -48,12 +57,58 @@ public class RajshahiDistrict extends AppCompatActivity implements View.OnClickL
             startActivity ( intent );
         }
 
-//        else if (v.getId () == R.id.ChapaiDistrictId)
-//        {
-//
-//            Intent intent = new Intent ( RajshahiDistrict.this,RajshahiDistrict.class );
-//            startActivity ( intent );
-//        }
+       else if (v.getId () == R.id.ChapaiDistrictId)
+       {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Chapainawabganj.class );
+            startActivity ( intent );
+       }
+
+        else if (v.getId () == R.id.JoypurhatDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Joypurhat.class );
+            startActivity ( intent );
+        }
+
+
+        else if (v.getId () == R.id.NaogaonDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Naogon.class );
+            startActivity ( intent );
+        }
+
+        else if (v.getId () == R.id.NatorDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Natore.class );
+            startActivity ( intent );
+        }
+
+        else if (v.getId () == R.id.PabnaDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Pabna.class );
+            startActivity ( intent );
+        }
+
+        else if (v.getId () == R.id.RajshahiDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Rajshahi.class );
+            startActivity ( intent );
+        }
+
+
+        else if (v.getId () == R.id.SirajgangDistrictId)
+        {
+
+            Intent intent = new Intent ( RajshahiDistrict.this,Sirajgang.class );
+            startActivity ( intent );
+        }
+
+
 
 
     }
