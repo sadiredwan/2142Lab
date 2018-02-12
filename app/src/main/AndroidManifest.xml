@@ -30,7 +30,22 @@
         <activity android:name=".divisions.KhulnaDistrict" />
         <activity android:name=".divisions.MymensinghDistrict" />
         <activity android:name=".MinistriesList" />
-        <activity android:name=".CivilService"></activity>
+        <activity android:name=".CivilService" />
+        <activity android:name=".civilService.PublicWork" />
+        <activity android:name=".civilService.Forest" />
+        <activity android:name=".civilService.HealthAssistant" />
+        <activity android:name=".civilService.RailWayEngineering" />
+        <activity android:name=".civilService.LiveStock" />
+        <activity android:name=".civilService.FisheriesCivil" />
+        <activity android:name=".civilService.HealthEngineering" />
+        <activity android:name=".civilService.Statistics" />
+        <activity android:name=".civilService.GeneralEducation" />
+        <activity android:name=".divisions.districts.Jamalpur" />
+        <activity android:name=".divisions.districts.Sherpur" />
+        <activity android:name=".divisions.districts.Tangail" />
+        <activity android:name=".divisions.districts.Netrokona" />
+        <activity android:name=".divisions.districts.Kishoreganj" />
+        <activity android:name=".divisions.districts.Mymensingh"></activity>
     </application>
 
 </manifest>

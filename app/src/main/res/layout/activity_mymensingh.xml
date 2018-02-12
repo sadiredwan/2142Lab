@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nano.projectjonobak.HealthEngineering">
+    tools:context="com.nano.projectjonobak.divisions.districts.Mymensingh">
 
 </android.support.constraint.ConstraintLayout>
